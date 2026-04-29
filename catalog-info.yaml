@@ -1,8 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
+
 metadata:
   name: Soft-Launch-Test-1
-  description: Node app that displays time - named Soft-Launch-Test-1
+  description: Service Soft-Launch-Test-1
+
   annotations:
     github.com/project-slug: BackstageSSPPoC/Soft-Launch-Test-1
     backstage.io/techdocs-ref: dir:.
