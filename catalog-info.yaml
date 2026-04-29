@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Soft-Launch-Test-1
+  description: Node app that displays time - named Soft-Launch-Test-1
+  annotations:
+    github.com/project-slug: BackstageSSPPoC/Soft-Launch-Test-1
+    backstage.io/techdocs-ref: dir:.
+    jenkins.io/job-full-name: Backstage_SSP_PoC/Soft-Launch-Test-1/main
+    argocd/app-name: soft-launch-test-1
+    backstage.io/kubernetes-id: Soft-Launch-Test-1
+    backstage.io/kubernetes-namespace: default
+    sonarqube.org/project-key: soft-launch-test-1
+
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
